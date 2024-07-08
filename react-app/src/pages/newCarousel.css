@@ -1,0 +1,74 @@
+/*
+Credit:
+https://css-tricks.com/how-to-make-a-css-only-carousel/
+*/
+.wrapper img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.gallery {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+
+}
+
+.gallery__img {
+  scroll-snap-align: start;
+  margin-bottom: 10px;
+  min-height: 100vh;
+  object-fit: cover;
+}
+.lil-nav {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  grid-row-start: 2;
+}
+
+.lil-nav a {
+  height: 200px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.lil-nav__img {
+  object-fit: cover;
+}
+
+
+.wrapper {
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 10px;
+  margin: auto;
+  padding:1px;
+}
+
+
+@media screen and (min-width: 1300px) {
+  .wrapper {
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+  }
+
+  .lil-nav {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    grid-row-start: auto;
+  }
+
+  .gallery {
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+  }
+}

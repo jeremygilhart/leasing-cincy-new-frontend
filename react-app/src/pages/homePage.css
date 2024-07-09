@@ -5,9 +5,8 @@
 .hero img {
   display: block;
   position: relative;
-  
-  max-height: 75vh;
-  max-width: 50vw;
+  max-height: 40vh;
+  max-width: 80vw;
   margin:auto;
   margin-top:5vh;
 }
@@ -204,6 +203,7 @@
 @media screen and (min-width: 768px) {
 
   .heroText {
+    padding-top: 25vh;
     margin: 0;
     width: 62%;
   }
@@ -273,6 +273,9 @@
 
 @media screen and (min-width: 1024px) {
 
+  .heroText {
+    padding-top: 30vh;
+  }
   .carModel {
     display: block;
     transform: rotate(90deg);

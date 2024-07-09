@@ -200,11 +200,11 @@ const Contact = () => {
 function ContactUs() {
   return (
     <div className="contact-us">
-      <div className = "small-red-line"></div>
-      <div className = "big-orange-line">
-        <h1>Interested? Schedule a tour today!</h1>
+      <div className = "small-red-line">
+        <div className = "big-orange-line">
+          <h1>Interested? Schedule a tour today!</h1>
+        </div>
       </div>
-      <div className = "small-red-line"></div>
       <div className="contact-us-main">
         <h1>Contact Us</h1>
         <div className = "form-div" id="hide-on-submit" style={{display: "",}}>

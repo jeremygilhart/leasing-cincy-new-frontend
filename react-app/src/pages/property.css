@@ -149,13 +149,14 @@ margin: 0;
 }
 
 .small-red-line {
-  height: 10px;
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #E14658;
 }
 
 .big-orange-line {
-  height: 70px;
+    padding:0px;
   width: 100%;
   background-color: #FF6A5C;
 }

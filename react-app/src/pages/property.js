@@ -21,7 +21,7 @@ import './property.css';
 function MainHomeView({house}) {
   return (
   <div className="House-section-property-page"  style={
-        {backgroundImage: `url(/${house["main photo"]}`)}
+        {backgroundImage: `url(./${house["main photo"]})`}
       }>
     <div className="House-under-image-description">
     <div className="House-under-image-description-text-section">

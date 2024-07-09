@@ -163,6 +163,7 @@ const Contact = () => {
       console.log("You left something blank!")
 
     } else {
+      /*
     emailjs.sendForm("service_9c23tzb", "template_p3lizi7", form.current, "NXddaTHpdVUShlgQT")
         .then((result) => {
             console.log(result.text);
@@ -174,6 +175,7 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+        */
       };
   }
 

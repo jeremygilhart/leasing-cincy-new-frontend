@@ -53,60 +53,6 @@
 				"is visible":"True",
 				"url": "https://my.matterport.com/show/?m=JJiWrFtrVXY"
 			}
-		},
-		{
-			"route":"/1234-address-rd",
-			"location": {
-				"address":"1234 Address Rd",
-				"city":"Norwood",
-				"state code": "OH",
-				"zip code": "45212"
-			},
-			"rent": "$1,855",
-			"availability": {
-				"isAvailable": "True",
-				"date": "June 1st"
-			},
-			"bedrooms": "3",
-			"bathrooms": "1 ½",
-			"squarefeet": "1432",
-			"main photo":"2539-ida-ave-3.webp",
-			"all photos":[
-				"2539-ida-ave-1.webp",
-				"2539-ida-ave-2.webp",
-				"2539-ida-ave-3.webp",
-				"2539-ida-ave-4.webp",
-				"2539-ida-ave-5.webp",
-				"2539-ida-ave-6.webp",
-				"2539-ida-ave-7.webp",
-				"2539-ida-ave-8.webp",
-				"2539-ida-ave-9.webp",
-				"2539-ida-ave-10.webp"
-			],
-			"great location": {
-				"is visible": "False",
-				"map image": "/map.png",
-				"map description": "Close proximity to I-71, Kroger, Rookwood Commons, and Wasson Way biketrail."
-			},
-			"great features": {
-				"is visible": "False",
-				"features description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-				"features list":[
-					"3 Bedrooms",
-					"1 Full Bathroom",
-					"1 Half Bathroom",
-					"1432 Square Feet",
-					"Off Street Parking",
-					"Private Fenced Backyard",
-					"Central AC",
-					"Hardwood Floors",
-					"Single Family Home"
-				]
-			},
-			"virtual tour": {
-				"is visible":"False",
-				"url": "https://my.matterport.com/show/?m=JJiWrFtrVXY"
-			}
 		}
 	]
 }

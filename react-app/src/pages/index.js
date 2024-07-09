@@ -30,10 +30,10 @@ function Hero() {
 
   return (
       <div className = "hero">
-        <img src = "home/houseState1.png"></img>
         <div className = "heroText">
         <h1 data-aos = "fade-down" data-aos-duration="800" >Find your next home</h1>
         <h1 className = "big144px orange" data-aos="fade-up" data-aos-duration="1600" >TODAY</h1>
+        <img src = "home/houseState1.png"></img>
         </div> 
       </div>  
   )

@@ -2,6 +2,22 @@
 Property Page
 */
 
+.mapImage {
+    max-width: 80vw;
+}
+
+.virtual-tour-iframe {
+    width: 90vw;
+    height: 51vw;
+}
+
+.virtual-tour-iframe-container {
+    width: 90vw;
+    height: 51vw;
+    margin: auto;
+}
+
+
 
 .House-section-property-page {
   /*background-image: url("Housefront.png");*/
@@ -145,7 +161,7 @@ margin: 0;
   padding-top: 20px;
   position: relative;
   background-color: #056571;
-  height: 760px;
+  padding-bottom: 10vh;
 }
 
 .small-red-line {
@@ -558,5 +574,21 @@ input[name="submit"] {
   #show-on-submit h2 {
     color: white;
   }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+
+    .virtual-tour-iframe {
+        width: 80vw;
+        height: 45vw;
+    }
+
+    .virtual-tour-iframe-container {
+        width: 80vw;
+        height: 45vw;
+        margin: auto;
+    }
 
 }

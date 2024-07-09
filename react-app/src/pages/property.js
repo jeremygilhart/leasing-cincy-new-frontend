@@ -59,7 +59,7 @@ function GreatLocation({imageDirectory, greatLocationData, greatFeaturesIsVisibl
             <h1>
               Great <span class="orange">Location</span>
             </h1>
-            <img src={imageDirectory + "/" + greatLocationData["map image"]} alt="Map of norwood." />
+            <img className = "mapImage" src={imageDirectory + "/" + greatLocationData["map image"]} alt="Map of norwood." />
             <p>{greatLocationData["map description"]}</p>
             {threeLines}
           </div>
@@ -139,7 +139,9 @@ function VirtualTour({virtualTourData}) {
     return (
       <div className="virtual-tour">
         <h1>Virtual Tour</h1>
-        <iframe width="853" height="480" src={virtualTourData["url"]} frameborder="0" allowFullScreen allow="xr-spatial-tracking"></iframe>
+        <div className="virtual-tour-iframe-container">
+          <iframe className = "virtual-tour-iframe" src={virtualTourData["url"]} frameborder="0" allowFullScreen allow="xr-spatial-tracking"></iframe>
+          </div>
       </div>
       );
   } else {
